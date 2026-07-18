@@ -1,0 +1,15 @@
+[project]
+name = "firesohouai"
+version = "0.0.1"
+description = "Open-source AI platform for firefighting drill training and analysis"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "FireSohouAI Contributors" }
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Video / image / model data
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.pt
+*.onnx
+*.tflite
+*.engine
+
+# Data outputs
+outputs/
+runs/
+logs/
+reports/
+*.csv
+*.jsonl
+
+# Allow documentation images when explicitly added
+!docs/**/*.png
+!docs/**/*.jpg
+!sample_data/**/.gitkeep
