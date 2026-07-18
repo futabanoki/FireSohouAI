@@ -1,4 +1,6 @@
-# FireSohouAI
+# 🚒 FireSohouAI
+
+AI-based Firefighting Drill Training & Analysis SystemFireSohouAI
 
 **AI-based Firefighting Drill Training & Analysis System**  
 消防操法の教育・訓練・解析を支援するオープンソースプロジェクトです。
@@ -50,7 +52,7 @@ FireSohouAI/
 └── sample_data/         # 公開可能なサンプル
 ```
 
-## 開発状況
+## 開発状況　🚧 Status: Early Development
 
 現在は、プロジェクト基盤と小型ポンプ操法の教範映像設計を進めています。
 
